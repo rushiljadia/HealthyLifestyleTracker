@@ -8,7 +8,7 @@ class HealthyLifestyleTracker {
         while (true) {
             mainMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1 -> logWorkout(scanner);
@@ -122,7 +122,6 @@ class User {
     }
 
     private void updateStreak() {
-        // Simplified streak logic; update as needed
         streak++;
     }
 }
